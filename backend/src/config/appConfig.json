@@ -1,0 +1,54 @@
+{
+  "appName": "CRM System",
+  "entities": [
+    {
+      "name": "customers",
+      "tableName": "customers",
+      "fields": [
+        {
+          "name": "name",
+          "type": "text",
+          "required": true,
+          "label": {
+            "en": "Customer Name",
+            "hi": "ग्राहक नाम"
+          }
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "required": false
+        },
+        {
+          "name": "status",
+          "type": "select",
+          "options": ["lead", "customer"]
+        }
+      ]
+    },
+    {
+      "name": "products",
+      "tableName": "products",
+      "fields": [
+        {
+          "name": "title",
+          "type": "text",
+          "required": true,
+          "label": {
+            "en": "Product Title",
+            "hi": "उत्पाद शीर्षक"
+          }
+        },
+        {
+          "name": "price",
+          "type": "number",
+          "required": true
+        },
+        {
+          "name": "inStock",
+          "type": "checkbox"
+        }
+      ]
+    }
+  ]
+}
