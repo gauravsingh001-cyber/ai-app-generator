@@ -1,0 +1,14 @@
+[
+  {
+    "id": "13781778-efcb-4013-99fe-8e2b347ce116",
+    "entity": "customers",
+    "data": {
+      "name": "GAURAV KUMAR",
+      "email": "vivaansingh62040@gmail.com",
+      "status": "customer"
+    },
+    "createdAt": "2026-05-23T12:54:52.333Z",
+    "updatedAt": "2026-05-23T12:54:52.333Z",
+    "userId": "d11be1ae-387b-4669-99c5-017a7ecb86b1"
+  }
+]
